@@ -1,6 +1,7 @@
 body{
     font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 400;
+
 }
 .barre{
     position:absolute;
@@ -16,17 +17,29 @@ body{
 
 .logo{
     position: relative;
+    padding-top:5 px;
 }
+
+
+
 
 a{
     text-decoration: none;
     color: white;
+    padding-top: 10px;
+    transition: transform .2s;
+} 
+
+a:hover{
+    text-decoration: none;
+    padding-top: 10px;
+    transform: scale(1.2);
 } 
 
 .text-menu{
     position: relative;
     display: flex;
-    margin-left: 100px;
+    margin-left: 10px;
     flex-grow: 1;
     justify-content: space-evenly;
 
@@ -35,7 +48,7 @@ a{
 .headerwts{
     max-width: 1060px;
     padding-left: 150px;
-    width: 100%;
+    width: 70%;
     align-items: center;
     display: flex;
 }
@@ -75,6 +88,15 @@ p{
 
 }
 
-.minip{
+@media screen and (max-width: 1070px)
+{
     
+.headerwts{
+    max-width: 1060px;
+    padding-left: 150px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+}
+
 }
